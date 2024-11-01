@@ -10,4 +10,4 @@ WORKDIR $APP_HOME
 
 CMD ["java", "-jar", "app.jar"]
 
-ENTRYPOINT ["app", "-jar", "app.jar"]
+ENTRYPOINT ["App", "-jar", "app.jar"]
